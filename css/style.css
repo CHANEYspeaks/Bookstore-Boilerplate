@@ -29,3 +29,8 @@ img {
   margin-left:10%;
   margin-right:10%;
 }
+
+<footer><p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script></footer>
